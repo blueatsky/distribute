@@ -82,6 +82,20 @@ export const chainMap = {
         gas: 200000,
         prefix: "evmos"
     },
+    "bbn-test-3": {
+        chain_id: 'bbn-test-3',
+        name: 'Babylon',
+        value: "babylon",
+        rpc: 'https://rpc.cosmos.directory/babylon',
+        rest: 'https://rest.cosmos.directory/babylon',
+        hd_path: "m/44'/60'/0'/0/0",
+        symbol: 'BBN',
+        denom: "abbn",
+        exponent: 18,
+        min_tx_fee: ["4000000000000000", "4000000000000000"],
+        gas: 200000,
+        prefix: "bbn"
+    },
     "dymension_1100-1": {
         chain_id: 'dymension_1100-1',
         name: 'Dymension',
